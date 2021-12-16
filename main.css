@@ -31,7 +31,7 @@ body{
     border: solid white 1px;
     border-radius: 15%;
     height: 10px;
-    width: 130%;
+    width: 100%;
 }
 
 .name, .title, .description {
@@ -98,7 +98,7 @@ body{
 }
 
 .advanced{
-    width: 250%;
+    width: 75%;
 }
 
 .beginner{
@@ -117,4 +117,40 @@ body{
 .projectNameDate{
     display: flex;
     justify-content: space-between;
+}
+
+a:any-link{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
+
+@media screen and (max-width: 767px) {
+    .mainBody{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .left{
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .right{
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .bodyContainer{
+        margin: 0;
+    }
+    .contact{
+        flex-wrap: wrap;
+    }
+    .contact > *{
+        margin-bottom: 5px;
+    }
 }
