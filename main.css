@@ -1,0 +1,120 @@
+body{
+    font-family: Helvetica;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    color: white;
+    background-color: #154c79;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.name{
+    font-size: 4.5em;
+}
+
+.sectionName{
+    width: max-content;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.underline{
+    background-color: #154c79;
+    border: solid white 1px;
+    border-radius: 15%;
+    height: 10px;
+    width: 130%;
+}
+
+.name, .title, .description {
+    text-align: center;
+}
+
+.title{
+    font-size: 2.5em;
+}
+
+.description{
+    font-size: 1.2em;
+    width: 75%;
+    align-self: center;
+    margin: 15px;
+}
+
+.mainBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bodyContainer{
+    margin: 40px;
+}
+
+.left{
+    background-color: lightgrey;
+    margin: 5% 5%;
+    width: 50%;
+}
+
+.right{
+    margin: 5% 5%;
+    width: 50%;
+    background-color: lightgrey;
+}
+
+.sectionDescription{
+    font-weight: bolder;
+    margin: 15px 0;
+}
+
+.skillList{
+    padding: 0;
+    list-style: none;
+}
+
+.skill{
+    margin: 10px 0;
+}
+
+.bar{
+    width: 50%;
+    height: 10px;
+    background-color: white;
+    padding: 3px;
+    border: 1px solid black;
+}
+
+.expert{
+    width: 100%;
+}
+
+.advanced{
+    width: 250%;
+}
+
+.beginner{
+   width: 25%;
+}
+
+.progress {
+    background-color: #063970;
+    height: 100%;
+}
+
+.xpInfo{
+    margin-bottom: 40px;
+}
+
+.projectNameDate{
+    display: flex;
+    justify-content: space-between;
+}
